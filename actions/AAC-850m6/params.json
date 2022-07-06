@@ -1,0 +1,112 @@
+{
+    "category": "plugins",
+    "display": "Stripe - Checkout",
+    "fields": {
+        "AAF": {
+            "caption": "Fail URL",
+            "default_val": "https://example.com/cancel",
+            "doc": "Failed URL to redirect user after payment process",
+            "editor": "DynamicValue",
+            "name": "cancel_url",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "Success URL",
+            "default_val": "https://example.com/success_url",
+            "doc": "Success URL to redirect user after payment process",
+            "editor": "DynamicValue",
+            "name": "success_url",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Currency",
+            "default_val": "EUR",
+            "editor": "DynamicValue",
+            "name": "currency",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "Product name",
+            "default_val": "T-Shirts",
+            "editor": "DynamicValue",
+            "name": "product_name",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Quantity",
+            "default_val": "2",
+            "editor": "DynamicValue",
+            "name": "quantity",
+            "rank": 5,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Payment method",
+            "default_val": "card",
+            "editor": "DynamicValue",
+            "name": "payment_method",
+            "rank": 6,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Unity price amount",
+            "default_val": "6321",
+            "doc": "e.g 6321 = 63.21 EUR/unit",
+            "editor": "DynamicValue",
+            "name": "unity_amount",
+            "rank": 7,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "Token",
+            "default_val": "Bearer sk_test_51...",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "token",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "mode",
+            "default_val": "payment",
+            "editor": "DynamicValue",
+            "name": "mode",
+            "rank": 8,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAD": {
+            "caption": "Payment URL",
+            "name": "payment_url",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "expires_at",
+            "name": "expires_at",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAP": {
+            "caption": "payment_intent",
+            "name": "payment_intent",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "payment_status",
+            "name": "payment_status",
+            "rank": 3,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}

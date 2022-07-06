@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "payment",
+        "1": "ecommerce",
+        "2": "productivity",
+        "3": "small business",
+        "4": "technical"
+    },
+    "demo_page": "https://stripe-session-checkout-plugin.bubbleapps.io/version-test",
+    "description": "The easiest plugin to integrate Stripe payment system into your app. \n\nUses 1 Action only, simply input your Stripe Key, product datails and you're done!\n\nSee our interactive demo",
+    "image": "//s3.amazonaws.com/appforest_uf/f1651228552171x265016359065626900/aaaaUntitled-5.png",
+    "license": "open_source",
+    "link": "https://stripe-session-checkout-plugin.bubbleapps.io/version-test",
+    "name": "Easy Stripe Payments",
+    "plugin_instructions": "Requirements:\n- Stripe Account\n- Stripe API Key\n\nProceeding:\nFollow the tutorial on the demo page to insert information into the action form\n\n— 2021-2022 © MediaNova"
+}
